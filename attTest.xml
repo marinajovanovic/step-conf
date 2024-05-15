@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration:
+<STEP-ProductInformation ResolveInlineRefs="true">
+<AttributeGroupList ExportSize="Selected"/>
+<AttributeList ExportSize="Selected"/>
+</STEP-ProductInformation>
+
+Export from Primary Product Hierarchy
+Classifications All
+Products All
+Assets All
+
+Exported by domain exporter.
+-->
+<STEP-ProductInformation ExportTime="2024-05-15 13:58:26" ExportContext="en_GB" ContextID="en_GB" WorkspaceID="Main" UseContextLocale="false">
+
+  <Qualifiers>
+    <Qualifier ID="Qualifier root">
+      <DimensionPointLink DimensionPointID="Qualifier root"/>
+      <Context ID="en_GB" Priority="4"/>
+    </Qualifier>
+    <Qualifier ID="AllCountries">
+      <DimensionPointLink DimensionPointID="AllCountries"/>
+      <Context ID="en_GB" Priority="6"/>
+    </Qualifier>
+    <Qualifier ID="std.lang.all">
+      <DimensionPointLink DimensionPointID="std.lang.all"/>
+      <Context ID="en_GB" Priority="3"/>
+    </Qualifier>
+    <Qualifier ID="en-GB">
+      <DimensionPointLink DimensionPointID="en-GB"/>
+      <Context ID="en_GB" Priority="2"/>
+    </Qualifier>
+    <Qualifier ID="UK">
+      <DimensionPointLink DimensionPointID="UK"/>
+      <Context ID="en_GB" Priority="5"/>
+    </Qualifier>
+    <Qualifier ID="AND 1856880">
+      <DimensionPointLink DimensionPointID="UK"/>
+      <DimensionPointLink DimensionPointID="en-GB"/>
+      <Context ID="en_GB" Priority="1"/>
+    </Qualifier>
+  </Qualifiers>
+
+  <AttributeList>
+
+    <Attribute ID="AttributeHelpText" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Selected="true" Referenced="true" Mandatory="false">
+      <Name QualifierID="en-GB">Attribute Help Text</Name>
+      <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""/>
+      <DimensionLink DimensionID="Language"/>
+      <MetaData>
+        <Value QualifierID="en-GB" AttributeID="Purpose">Used to enter mouse-over help into product attributes for display to STEP user</Value>
+      </MetaData>
+      <AttributeGroupLink AttributeGroupID="Metadata"/>
+      <AttributeGroupLink AttributeGroupID="atg_Container"/>
+      <AttributeGroupLink AttributeGroupID="AttributeMetadata"/>
+      <UserTypeLink UserTypeID="stibo.normalattribute"/>
+    </Attribute>
+
+  </AttributeList>
+</STEP-ProductInformation>
