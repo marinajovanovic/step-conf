@@ -49,7 +49,7 @@ Exported by domain exporter.
       <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""/>
       <DimensionLink DimensionID="Language"/>
       <MetaData>
-        <Value QualifierID="en-GB" AttributeID="Purpose">Used to enter mouse-over help into product attributes for display to STEP user</Value>
+        <Value QualifierID="en-GB" AttributeID="Purpose">Used to enter mouse-over help into product attributes for display to STEP users.</Value>
       </MetaData>
       <AttributeGroupLink AttributeGroupID="Metadata"/>
       <AttributeGroupLink AttributeGroupID="atg_Container"/>
